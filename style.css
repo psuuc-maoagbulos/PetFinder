@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("qt.jpg");
+}
+
+
+header {
+  background-color: #d5a162;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  font-size: larger;
+  font-weight:800 ;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+  font-size: larger;
+  font-weight: 800;
+ 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+em{
+  font-size: large;
+  
+  
+}
+
+.hero {
+  background-image: url("pet.jpg");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background-color: #d5a162;
+ border-radius: 5px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #d5a162;
+  border-radius: 5px;
+}
+
+.pindot {
+  display: inline-block;
+  background-color: #cf7b15;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+
+.cta{
+ 
+  text-align: center;
+}
+
+.baba{
+ font-size: smaller;
+  text-align: center;
+}
+
+.navi{
+  display: inline-block;
+  list-style: none;
+  background-color: #cf7b15;
+  border-radius: 10px;
+  
+}
+
+li :hover{
+  color:aqua;
+
+}
+
+div.row {
+  display: flex;
+  flex-wrap: flex;
+}
+
+div.footer-col {
+  width: 100%;
+  padding: 0px 12px;
+}
+
+div.footer-col#col1{
+  width: 130%;
+}
+
+div.footer-col h3 {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+div.footer-col p{
+  font-size: 16px;
+  color:black;
+  margin-bottom: 10px;
+}
+
+div.footer-col ul{
+  list-style: none;
+}
+
+div.footer-col ul a{
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 5px;
+
+}
+
+div.copyright {
+  padding: 15px 0px;
+}
+
+div.copyright p{
+  font-size: small;
+  color: black;
+  text-align: center;
+}
+div.footer-col li a{
+  text-align: left;
+}
